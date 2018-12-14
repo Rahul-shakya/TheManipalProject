@@ -33,6 +33,11 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        //maanav here
+        int abcd;
+        abcd=5;
+        //maanav ends
+
         mAuth=FirebaseAuth.getInstance();
 
         loginEmailText=findViewById(R.id.login_email);
