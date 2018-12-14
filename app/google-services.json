@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "989616127515",
+    "firebase_url": "https://themanipalproject-2fc65.firebaseio.com",
+    "project_id": "themanipalproject-2fc65",
+    "storage_bucket": "themanipalproject-2fc65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989616127515:android:de8a04ca3792eddf",
+        "android_client_info": {
+          "package_name": "com.example.asus.themanipalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989616127515-6p678e9c8h8fkgv8au4vdq51udf8lv8g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.themanipalproject",
+            "certificate_hash": "eb52f7f5f25a2c9dcd9202069d6d6035ea309f81"
+          }
+        },
+        {
+          "client_id": "989616127515-hk0i1pp6racqhem5ph5jj5bh8uceko2p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPq8mFt_0sUUerT30ScxUSj2ztfk7biLM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989616127515-hk0i1pp6racqhem5ph5jj5bh8uceko2p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
