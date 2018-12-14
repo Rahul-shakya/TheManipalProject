@@ -34,8 +34,8 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         //maanav not here
-        int abcd;
-        abcd=5;
+        int ab;
+        ab=5;
         //maanav not ends
 
         mAuth=FirebaseAuth.getInstance();
