@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("The Manipal Project");
 
 
+
         mAuth=FirebaseAuth.getInstance();
 
         mainbottomView=findViewById(R.id.mainBottomNav);

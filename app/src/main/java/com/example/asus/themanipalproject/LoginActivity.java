@@ -32,6 +32,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
 
         //maanav not here
         int ab;
@@ -53,6 +54,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent regIntent=new Intent(LoginActivity.this,RegisterActivity.class);
                 startActivity(regIntent);
+                finish();
             }
         });
 
