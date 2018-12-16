@@ -32,6 +32,7 @@ public class RegisterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+        overridePendingTransition(R.anim.slide_in_right,R.anim.slie_out_left);
 
         reg_email_field=findViewById(R.id.reg_email);
         reg_pass_field=findViewById(R.id.reg_pass);
@@ -46,6 +47,9 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+
+                Intent mainIntent=new Intent(RegisterActivity.this,LoginActivity.class);
+                startActivity(mainIntent);
                 finish();
 
             }
